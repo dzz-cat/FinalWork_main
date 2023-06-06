@@ -15,7 +15,7 @@ void FillArr(string[] arr) // Заполнение массива
 {
     for (int i = 0; i < arr.Length; i++)
     {
-        Console.WriteLine($"Введите значение №{i+1} >");
+        Console.WriteLine($"Введите значение № {i+1} >");
         arr[i] = Console.ReadLine();
     }
 }
@@ -48,7 +48,7 @@ string[] NewArr(string[] oldArr, string[] newArr) // Заполняем новы
     return newArr;
 }
 
-Console.WriteLine("Задайте длину массива, значения, а я сделаю массив из значений, где 3 или меньше символов.");
+Console.WriteLine("Задайте длину массива и значения, а я сделаю массив из значений, где 3 или меньше символов.");
 // Задаем длину массива:
 int number = NumberFromUser("Сколько элементов будет в массиве? > ");
 
