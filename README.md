@@ -4,7 +4,7 @@
 
 ## Блок-схема алгоритма
 
-![Algorithm](Algorithm.jpg)
+![algorithm](algorithm.jpg)
 
 ## Пошаговое описание
 
